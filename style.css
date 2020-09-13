@@ -1,0 +1,86 @@
+body{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffff;
+}
+ul{
+    margin:0;
+    padding:0;
+}
+header{
+    background:#35424a;
+    color:#ffffff;
+    padding-top:10px;
+    min-height: 40px;
+}
+header a{
+    color:#ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size:16px;
+}
+
+header li{
+    float: left;
+    display:inline;
+    padding:0 20px 0 20px
+}
+header nav{
+    margin-top: 10px;
+ }
+.container{
+   width: 80%;
+   margin:auto;
+   overflow:hidden;
+}
+
+.center{
+    text-align: center;
+   
+}
+.left{
+    text-align: left;
+}
+.startPage{
+    margin-top: 20px;
+}
+
+#word-input{
+    width: 200px;
+    height: 25px;
+    border-radius: 4px;
+    border: none;
+    margin-bottom: 10px;
+}
+.buttons{
+    display: inline;
+}
+
+.hidden{
+    display:none;
+}
+.missedListDiv{
+    overflow-y:scroll;
+    height: 200px;
+}
+
+ /* Add a black background color to the top navigation */
+ 
+
+ @media(max-width: 768px){
+    header nav,
+    header nav li
+   {
+        float:none;
+        text-align: center;
+        width: 100%;
+    }
+ 
+    header{
+        padding-bottom: 20px;
+    }
+    #word-input{
+        width: 70%;
+    }
+ 
+ }

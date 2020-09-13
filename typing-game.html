@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <ul>
+                <li><a class="active" href="#home">Home</a></li>
+                <li><a href="start.html">Typing Game</a></li>
+                <li> <a href="practice.html">Practice</a></li>
+            </ul>    
+        </nav>
+    </header>
+    
+    <div class="container">
+        <div class="gameContainer">
+            <div class="heading center">
+                <h5>Type the given code in <span id="seconds">5</span> seconds</h5>
+                <h1 id="currentWord">WORD</h1>
+                <h4 id="message"></h4>
+            </div>
+            <div class="typing center">
+                <input type="text" id="word-input"/>
+            </div>
+            <div class="center">
+                <div class="buttons">
+                    <button id="btnEnter">Enter</button>
+                    <button id="btnSkip">Skip</button>
+                    <button id="btnQuit">Quit</button>
+                </div>
+                <div class="info">
+                    <span>Time Left: </span>
+                    <span id="time">0</span>
+                </div>
+                <div class="info">
+                    <span>Score: </span>
+                    <span id="score">0</span>
+                </div>  
+            </div>
+            <div class="instructions center">
+                <p>Type the word in SIG codes within the the time range.
+                </p>
+            </div>
+        </div>
+       
+    </div>
+</body>
+</html>

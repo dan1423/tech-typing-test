@@ -1,0 +1,102 @@
+﻿abbrvId,abbreviation,meaning,abbrvType
+1,q,every,frequency
+2,d,day,frequency
+3,h,hour,frequency
+4,hr,hour,frequency
+5,w,week,frequency
+6,qd,Once a day,frequency
+7,qod,Every other day,frequency
+8,bid,Twice a day,frequency
+9,tid,Three times a day,frequency
+10,qid,Four times a day,frequency
+11,qam,Every morning,frequency
+12,qpm,Every evening,frequency
+13,qhs,At bedtime,frequency
+14,q_h,Every _ hour,frequency
+15,atc,Around the clock,frequency
+16,ac,Before meals,frequency
+17,pc,After meals,frequency
+18,prn,Take as needed,frequency
+19,stat,Immediately,frequency
+20,asap,As soon as possible,frequency
+21,ud,As directed,frequency
+28,po,By mouth,route
+29,npo,Nothing by mouth,route
+30,sl,Sublingual ,route
+31,ngt,Nasogastric tube,route
+32,gt,Gastric tube,route
+33,as,Left ear,route
+34,ad,Right ear,route
+35,au,Both ears,route
+36,os,Left eye,route
+37,od,Right eye,route
+38,ou,Both eyes,route
+39,r,Right,route
+40,l,Left,route
+41,pr,Per rectum,route
+42,rect.,Per rectum,route
+43,inh,Inhalation,route
+44,iv,Intravenous,route
+45,im,Intramuscular,route
+46,in,intranasal,route
+47,sc, Subcutaneous,route
+48,sq,Subcutaneous ,route
+49,it,Intrathecal,route
+50,io,Intraosseus,route
+51,top,Topically,route
+52,id,Intradermal,route
+53,v,vaginally,route
+54,pv,vaginally,route
+55,nas,Intranasal,route
+59,tsp,Teaspoon,measurement
+60,tbsp,Tablespoon,measurement
+61,cc,Cubic centimeter,measurement
+62,ml,milliliter,measurement
+63,l,Liter,measurement
+64,oz,Ounce,measurement
+65,gal,Gallon,measurement
+66,pt,Pint,measurement
+67,qt,quart,measurement
+68,fl,Fluid,measurement
+69,gtt,Drop,measurement
+70,mcg,Microgram,measurement
+71,mg,Milligram,measurement
+72,g,Gram,measurement
+73, gm,Gram,measurement
+74,kg,Kilogram,measurement
+75,lb,Pound,measurement
+76,mEq,Milliequivalent,measurement
+77,iu,International unit,measurement
+78,mOsm,Milliosmoles,measurement
+79,bsa,Body surface area,measurement
+80,ss,One half,measurement
+90,disp,Dispense,instruction
+91,aa,Of each,instruction
+92,aaa,Apply to affected area,instruction
+93,aq,Water,instruction
+94,ad,To make up to,instruction
+95,qs,To make sufficient quantity,instruction
+96,no.,number,instruction
+97,et,And,instruction
+98,appl,apply,instruction
+99,ft,Make,instruction
+100,m,Mix,instruction
+101,sig,Write directions (on label),instruction
+102,c,with,instruction
+103,s,without,instruction
+104,dil,dilute,instruction
+105,daw,Dispense as written,instruction
+119,HTN,Hypertension,cardiovascular
+120,BP,Blood pressure,cardiovascular
+121,SBP,Systolic blood pressure,cardiovascular
+122,DBP,Diastolic blood pressure,cardiovascular
+123,HR,Heart rate (pulse),cardiovascular
+124,RR,Respiratory rate,cardiovascular
+125,CAD,Coronary artery disease,cardiovascular
+126,CHD,Coronary heart disease,cardiovascular
+127,HF,Heart failure,cardiovascular
+128,MI,Myocardial infarction,cardiovascular
+129,CPR,Cardiopulmonary resuscitation,cardiovascular
+130,CABG,Coronary artery bypass graft (surgical procedure),cardiovascular
+131,EKG,Electrocardiogram (measurement of heart electrical activity),cardiovascular
+132, ECG,Electrocardiogram (measurement of heart electrical activity),cardiovascular

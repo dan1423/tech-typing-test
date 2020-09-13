@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <ul>
+                <li><a class="active" href="#home">Home</a></li>
+                <li><a href="start.html">Typing Game</a></li>
+                <li> <a href="practice.html">Practice</a></li>
+            </ul>    
+        </nav>
+    </header>
+    <div class="container">
+        <div class="startPage center">
+            <p>This game requires the player to type in the definition of the displayed
+                sig code. Player has 15 seconds to type. If player skips,misses, or enters
+                the wrong definition, there will be a list of missed codes and their definitions.
+            </p>
+            <br/>
+            <button class="btnStart">Start</button> 
+        </div>
+        </div>
+       
+    </div>
+</body>
+<script>
+    document.querySelector('.btnStart').addEventListener('click',()=>{
+        window.location = 'typing-game.html';
+    })
+</script>
+</html>
